@@ -122,6 +122,9 @@ button input{
 
 @media screen and (min-width: 730px) and (max-width:900px)
 {
+    body{
+        height:3300px;
+    }
     #home{
     width:900px;
     }
@@ -166,10 +169,19 @@ button input{
        text-align: left;
        padding-left:25px;
    }
+   #foot{
+       height:500px;
+       display:flex;
+       flex-flow: column;
+   }
+   
 }
 
 @media screen and (min-width: 421px) and (max-width:731px)
 {
+    body{
+        height:3300px;
+    }
 
     #contact>h3{
         float:left;
@@ -233,12 +245,17 @@ form input{
     float:left;
 }
 
-
+#foot{
+    height:500px;
+    display:flex;
+    flex-flow:column;
+    float:left;
+}
 
 }
 
 .changes{
-    height:500px;
+    height:400px;
     }
 
 #frame iframe{
@@ -247,10 +264,27 @@ form input{
 }
 
 #abc{
-    height:1050px;
+    height:750px;
 }
 
 .def{
     height: 500px;
 }
 
+#foot{
+    background-color:#031823;
+    color:white;
+    height:200px;
+    display:flex;
+    justify-content:space-between;
+    
+}
+.some{
+    
+    padding:15px 5px 5px 35px;
+}
+
+.mose{
+    padding:15px 95px 5px 5px;
+    text-align:center;
+}
