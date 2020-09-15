@@ -231,7 +231,26 @@ form input{
 
 .move{
     float:left;
+}
+
+
 
 }
+
+.changes{
+    height:500px;
+    }
+
+#frame iframe{
+    padding:0px;
+    margin:75px;
+}
+
+#abc{
+    height:1050px;
+}
+
+.def{
+    height: 500px;
 }
 
